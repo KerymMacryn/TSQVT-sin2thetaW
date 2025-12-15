@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "TSQVT Derivation of sin²θ_W = 3/8: Computational Pipeline"
+message: "If you use this software, please cite as below."
+type: software
+authors:
+  - family-names: "Makraini"
+    given-names: "Kerym"
+    orcid: "https://orcid.org/0009-0007-6597-3283"
+    affiliation: "UNED, Madrid, Spain"
+repository-code: "https://github.com/KerymMacryn/sm-parameters-repo"
+url: "https://doi.org/10.5281/zenodo.XXXXXXX"
+license: MIT
+version: 1.0.0
+date-released: 2024-12-XX
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Makraini"
+      given-names: "Kerym"
+  title: "Complete Derivation of Standard Model Parameters from TSQVT Spectral Data"
+  journal: "Annals of Physics"
+  year: 2025

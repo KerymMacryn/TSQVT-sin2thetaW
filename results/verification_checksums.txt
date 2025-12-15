@@ -1,0 +1,94 @@
+# TSQVT Repository Verification Checksums
+# =======================================
+# SHA256 checksums for reproducibility verification
+# Generated: 2025
+# Repository: sm-parameters-repo v1.0
+# Author: Kerym Makraini (UNED)
+#
+# Usage: sha256sum -c verification_checksums.txt
+#
+# Note: Checksums are computed at time of release.
+# If verification fails, ensure you have the exact release version.
+
+# ============================================================
+# Core Module Files
+# ============================================================
+097001c230bbda9693f7b66b2b875e761184738858494023264e112baa8cf6b3  tsqvt/core/__init__.py
+8bc90dd3d2631b537160e8e62fe09ea61c44d8345a052f0510b1ce8de1dc9851  tsqvt/core/spectral_manifold.py
+c975635af4263195b8bbf43c1500aa944e4a4b7467111889071f3b75e692cf44  tsqvt/core/condensation.py
+edd96151a91500ae90dabc9ba524cd2b41768a7198d383dafefbb0edaae2c24c  tsqvt/core/krein_space.py
+
+# ============================================================
+# Spectral Module Files
+# ============================================================
+092d0404dc6681c46242d7f37bb5c6d09ae2566d72c74c4909250cbe327b1761  tsqvt/spectral/__init__.py
+b8f47972686d3fdebb52b3d54b158736a7c72de63d3410e9c56bbdd6014fdc92  tsqvt/spectral/heat_kernel.py
+a77ada49d97eccda1a390df7ef793c70f55cccbcdd9bef66c68624338ac7d8fb  tsqvt/spectral/dirac_operators.py
+96beea3db55fb883bd899250bf8b1dc6543e1fe0fce7a2c86b35d8e5c5005bbf  tsqvt/spectral/finite_geometry.py
+
+# ============================================================
+# Gauge Module Files
+# ============================================================
+24d088a7d14612efad9cdd386438a216797698472bcccc6214d72f997587200b  tsqvt/gauge/__init__.py
+3ba96b8ed83abb47a65eaa692efd5e1ce7dcc40895adbc34eb61c1654461303b  tsqvt/gauge/coefficients.py
+6f0242a906a9aa114c9c132579dd8583c4f4bb57bc1c6d4503c54fbaa1647455  tsqvt/gauge/standard_model.py
+169930f7ccc55f7335465c30982cf1167f00e7d6770e3a55852108b0f974621c  tsqvt/gauge/projectors.py
+
+# ============================================================
+# RG Module Files
+# ============================================================
+5432d202b059074d5490d417f15123d6766b135605eedd70fd1d943c776d7cf0  tsqvt/rg/__init__.py
+95cedd422b28fa7f49bf71b7e139c05010084f010c70fd392076a93f40ddcd36  tsqvt/rg/running.py
+b87300b247ea7606f23fecfc60bda5566eaa5e9c6c3965d2238de7111ae80964  tsqvt/rg/thresholds.py
+a00e159e1b4e2d1114826f50bcdaaf0840eba2808a2798a98c56cb5345f8044b  tsqvt/rg/matching.py
+
+# ============================================================
+# Experimental Module Files
+# ============================================================
+d6d9fd503bfdafe10474a1621a60f456b1147c12a2e425a046935224f7e94d57  tsqvt/experimental/__init__.py
+7228b1f530c259cbc3e7724233665243799c5a80969edd500353e9c7c04083a1  tsqvt/experimental/collapse.py
+c692679052287c5939f42f5dc918322bf8d514a596fe233eedda8099ac10ee67  tsqvt/experimental/bec.py
+4e2f84dc74a842999aaa1ef34cc69472f74f099eab7721384a55780b637814b2  tsqvt/experimental/metamaterials.py
+
+# ============================================================
+# Utility Module Files
+# ============================================================
+182b46e5cf967045c7f4086a94a0fc4d64859db48b767c344bd19bfd8396d329  tsqvt/utils/__init__.py
+993fcf8a47093f09639893f8f1ee3dcd972b906cc858000af9242ca4f1e53528  tsqvt/utils/constants.py
+4662c69c45de8da5c00bcd94eb121221c2ad829ebb5903aba152f5ed2f7379c6  tsqvt/utils/plotting.py
+
+# ============================================================
+# Test Files
+# ============================================================
+eecc91673414e6b2b38b3a0deef24731499cfaeb71810dd20a9c8c957120045f  tests/test_core.py
+4c39b6aa3ef5247b51e2c7e2d4273256c20779718cdfcdfd86aa605f96fdadbb  tests/test_gauge.py
+070b4760340317d2fabdaae28a32c70dabeee14e5c67da4ffe8b064292b3f3a6  tests/test_rg.py
+46bf60317f6e4e439a4e6e4d9b6b40f1dda2e76f92130f448140c904f37e851e  tests/test_spectral.py
+
+# ============================================================
+# Scripts
+# ============================================================
+406e63d104c5373ecf53fc216a65d7971641f9674b842c1252a0997fcd6027e4  scripts/run_predictions.py
+63bc446230314c1dcb31d3ee5410712f1f9175e11f0a1689413ed5499735940d  scripts/generate_plots.py
+
+# ============================================================
+# Results and Data Files
+# ============================================================
+463fa57b9067d7e8a80f608d412e078c784a09423b4fcfed951501642fea98ea  results/traces_table.csv
+
+# ============================================================
+# Configuration Files
+# ============================================================
+6c9dc00229921bee3f6c9e20652a72bf9f7a2c14223eee0d40d3743da1612e9d  setup.py
+8201795405e6fb55ef575aacaf0f5630f8c604fbcce6594f668669ad81561242  requirements.txt
+4646b0f818d2070232d9ca260bebd12563488e58a1ac25075163e2caeca683a5  CITATION.cff
+dd55c7d27ceb73381e787ef0c4915c5eb0932399e16800ce80e748caca4fb136  tsqvt/__init__.py
+
+# ============================================================
+# Verification Summary
+# ============================================================
+# Total Python files: 30
+# All checksums generated with SHA256
+# Repository integrity verified if all checksums match
+#
+# To verify: sha256sum -c results/verification_checksums.txt
