@@ -180,21 +180,22 @@ The exponent α = 1/2 (giving γ = 1/ρ) comes from the **first-order Dirac symb
 If you use this code, please cite:
 
 ```bibtex
-@article{Makraini2025,
-    author = {Makraini, Kerym},
-    title = {Complete Derivation of Standard Model Parameters from TSQVT Spectral Data},
-    year = {2025},
-	doi = {10.5281/zenodo.17925840},
-	url = {https://github.com/KerymMacryn/monte-carlo-methods}
+@software{Makraini2025_montecarlo,
+  author = {Makraini, Kerym},
+  title  = {monte-carlo-methods (TSQVT): Monte Carlo uncertainty propagation and calibrated analyses},
+  year   = {2025},
+  doi    = {10.5281/zenodo.17925840},
+  url    = {https://doi.org/10.5281/zenodo.17925840}
 }
 
-@software{Makraini2024code,
-    author = {Makraini, Kerym},
-    title = {TSQVT Derivation of sin²θ_W = 3/8: Computational Pipeline},
-    year = {2025},
-    doi = {10.5281/zenodo.XXXXXXX},
-    url = {https://github.com/KerymMacryn/TSQVT-sin2thetaW}
+@software{Makraini2025_sin2thetaW,
+  author = {Makraini, Kerym},
+  title  = {TSQVT-sin2thetaW: Derivation of sin^2(theta_W)=3/8 (computational pipeline)},
+  year   = {2025},
+  doi    = {10.5281/zenodo.17932808},
+  url    = {https://doi.org/10.5281/zenodo.17932808}
 }
+
 ```
 
 **Weinberg angle at unification.** Within TSQVT, the electroweak mixing angle at the unification scale is obtained in closed form as \(\sin^2\theta_W(\Lambda_{\mathrm{GUT}})=3/8\), matching the standard SU(5)-normalized tree-level unification value.
